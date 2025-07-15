@@ -1,15 +1,6 @@
 version: '3.7'
 
 services:
-
-  my-app:
-    build: .
-    image: ashot9632/project_new:3.3.3
-    ports:
-      - 3000:3000
-    networks:
-      - mongo
-
   mongodb:
     image: mongo
     ports:
